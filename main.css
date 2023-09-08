@@ -1,0 +1,64 @@
+@import url("qm-main-root-vars.css");
+@import url("assets/css/fonts.css");
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qm-onBoarding {
+  width: 773px;
+}
+.qm-onBoarding_tite {
+  color: var(--Black, #000);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  font-family: Outfit-Bold;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106.5%; /* 74.55px */
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.qm-onBoarding_description {
+  color: var(--Black, #000);
+  font-family: Outfit-Medium;
+  font-size: 2.063rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43.1px; /* 130.606% */
+  margin-top: 38px;
+  margin-bottom: 23px;
+}
+.qm-onBoarding_tell {
+  color: var(--White, var(--White, #fff));
+  font-family: Outfit-SemiBold;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17.1px; /* 106.875% */
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+.qm-onBoarding_btn-lg {
+  width: max-content;
+  background-image: url("./assets/img/lil-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px 25px;
+  margin-right: 31px;
+}
+.qm-onBoarding_btn-xl {
+  width: max-content;
+  background-image: url("./assets/img/lg-bbg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px 25px;
+}
+.qm-onBoarding_btn-lg a,
+.qm-onBoarding_btn-xl a {
+  text-decoration: none;
+  color: #fff;
+}
